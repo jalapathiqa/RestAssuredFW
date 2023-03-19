@@ -20,7 +20,7 @@ public class POST_createRequestBody_ExternalJSONFile {
 		File f=new File("./users.json");
 		FileReader fr=new FileReader(f);
 		JSONTokener jt=new JSONTokener(fr);
-		
+		 
 		JSONObject data=new JSONObject(jt);
 		given()
 			.contentType("application/json")

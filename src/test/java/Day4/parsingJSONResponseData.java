@@ -1,4 +1,4 @@
-package Day4;
+package day4;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
@@ -26,9 +26,7 @@ public class parsingJSONResponseData {
 		// approach 1:
 		.body("data[0].first_name", equalTo("Michael"))
 		.body("data[1].first_name", equalTo("Lindsay"))
-		.body("data[2].first_name", equalTo("Tobias"))
-
-		
+		.body("data[2].first_name", equalTo("Tobias"))	
 		
 	
 		.log().all();
