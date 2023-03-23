@@ -1,63 +1,530 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T15:32:13 PDT" name="Suite" finished-at="2023-03-19T15:32:17 PDT" duration-ms="3713">
+  <suite started-at="2023-03-22T17:08:36 PDT" name="PetStore" finished-at="2023-03-22T17:08:45 PDT" duration-ms="8967">
     <groups>
     </groups>
-    <test started-at="2023-03-19T15:32:13 PDT" name="Test" finished-at="2023-03-19T15:32:17 PDT" duration-ms="3713">
-      <class name="day8.UpdateUser">
-        <test-method signature="updateGORESTUser(org.testng.ITestContext)[pri:0, instance:day8.UpdateUser@942a29c]" started-at="2023-03-19T15:32:16 PDT" name="updateGORESTUser" finished-at="2023-03-19T15:32:17 PDT" duration-ms="488" status="PASS">
+    <test started-at="2023-03-22T17:08:36 PDT" name="User" finished-at="2023-03-22T17:08:45 PDT" duration-ms="8967">
+      <class name="api.test.UserTests_DataDriven">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:40 PDT" name="testPostUser" data-provider="Data" finished-at="2023-03-22T17:08:41 PDT" duration-ms="517" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29f7cefd]]>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234567]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateGORESTUser -->
-      </class> <!-- day8.UpdateUser -->
-      <class name="day8.DeleteUser">
-        <test-method signature="deleteGORESTUser(org.testng.ITestContext)[pri:0, instance:day8.DeleteUser@1ed6388a]" started-at="2023-03-19T15:32:17 PDT" name="deleteGORESTUser" finished-at="2023-03-19T15:32:17 PDT" duration-ms="485" status="PASS">
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:41 PDT" name="testPostUser" data-provider="Data" finished-at="2023-03-22T17:08:42 PDT" duration-ms="509" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29f7cefd]]>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10112]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234568]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteGORESTUser -->
-      </class> <!-- day8.DeleteUser -->
-      <class name="day8.CreateUser">
-        <test-method signature="createGORESTUser(org.testng.ITestContext)[pri:0, instance:day8.CreateUser@29215f06]" started-at="2023-03-19T15:32:14 PDT" name="createGORESTUser" finished-at="2023-03-19T15:32:16 PDT" duration-ms="2168" status="PASS">
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:42 PDT" name="testPostUser" data-provider="Data" finished-at="2023-03-22T17:08:42 PDT" duration-ms="698" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29f7cefd]]>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10113]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234569]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createGORESTUser -->
-      </class> <!-- day8.CreateUser -->
-      <class name="day8.GetUserDetails">
-        <test-method signature="testGetGORESTUser(org.testng.ITestContext)[pri:0, instance:day8.GetUserDetails@3527942a]" started-at="2023-03-19T15:32:16 PDT" name="testGetGORESTUser" finished-at="2023-03-19T15:32:16 PDT" duration-ms="514" status="PASS">
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:42 PDT" name="testGetUser" data-provider="Data" finished-at="2023-03-22T17:08:43 PDT" duration-ms="534" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29f7cefd]]>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234567]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetGORESTUser -->
-      </class> <!-- day8.GetUserDetails -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:43 PDT" name="testGetUser" data-provider="Data" finished-at="2023-03-22T17:08:43 PDT" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10112]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testGetUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:43 PDT" name="testGetUser" data-provider="Data" finished-at="2023-03-22T17:08:44 PDT" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10113]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234569]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testDeleteUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:44 PDT" name="testDeleteUser" data-provider="Data" finished-at="2023-03-22T17:08:44 PDT" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:44 PDT" name="testDeleteUser" data-provider="Data" finished-at="2023-03-22T17:08:45 PDT" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10112]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234568]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testDeleteUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.UserTests_DataDriven@75d3a5e0]" started-at="2023-03-22T17:08:45 PDT" name="testDeleteUser" data-provider="Data" finished-at="2023-03-22T17:08:45 PDT" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10113]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1234569]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.test.UserTests_DataDriven -->
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@117159c0]" started-at="2023-03-22T17:08:37 PDT" name="setupData" finished-at="2023-03-22T17:08:37 PDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@117159c0]" started-at="2023-03-22T17:08:37 PDT" name="testPostUser" finished-at="2023-03-22T17:08:39 PDT" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser(java.lang.String)[pri:2, instance:api.test.UserTests@117159c0]" started-at="2023-03-22T17:08:39 PDT" name="testGetUser" finished-at="2023-03-22T17:08:39 PDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [testGetUser] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [testGetUser] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@117159c0]" started-at="2023-03-22T17:08:39 PDT" name="testUpdateUser" finished-at="2023-03-22T17:08:40 PDT" duration-ms="1057" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.test.UserTests.testUpdateUser(UserTests.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- User -->
+  </suite> <!-- PetStore -->
 </testng-results>
